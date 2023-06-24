@@ -1,0 +1,111 @@
+
+/* ----The Site Title and the Navigation Bar----- */
+
+.header-content {
+    float: left;
+    width: 50%;
+    padding: 10px 50px;
+    height:65px; 
+    box-sizing: border-box;
+    background-color: darkslategray;
+}
+
+.header-top:after {
+    content: "";
+    background-color: darkslategray;
+    display: table;
+    height: 54px;
+    box-sizing: border-box;
+}
+
+#header-title {
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: flex-end;
+}
+
+#header-nav {
+    border: 2px dashed rgba(0, 0, 0, 0.4); 
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#header-nav a {
+    color: #92CCCE;
+    padding: 1px;
+}
+
+/* -----The Subtitle----- */
+
+.header-bottom {
+    background-color: slategray;
+    
+}
+
+.header-btm-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.header-bottom, .header-btm-flex {
+    height: 130px;
+}
+
+.header-btm-flex h2 {
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+    color: black;
+    margin: 20px 50px;
+    width: 200px;
+
+    text-align: right;
+}
+
+/* ----The Main Content----- */
+
+main {
+    background-color: whitesmoke;
+}
+
+.content-container {
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+}
+
+.content-container p {
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+    
+}
+
+.content-title {
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+    background-color:gainsboro;
+}
+
+.section-content {
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+    background-color: lemonchiffon;
+}
+
+#gallery-item-main {
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+}
+
+.gallery-item {
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+}
+
+.lower-nav {
+    border: 2px dashed rgba(0, 0, 0, 0.4);  
+}
+
+.lower-nav li {
+    border: 2px dashed rgba(0, 0, 0, 0.4);  
+}
+
+/* ----The Footer----- */
+
+footer {
+    background-color: slategray;
+}
