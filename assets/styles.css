@@ -98,12 +98,19 @@ main {
     margin: 10px;
 }
 
+.work-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #gallery-item-main {
     border: 2px dashed rgba(0, 0, 0, 0.4);
+    width: 100%;
 }
 
 .gallery-item {
     border: 2px dashed rgba(0, 0, 0, 0.4);
+    flex-grow: 1;
 }
 
 .lower-nav {
