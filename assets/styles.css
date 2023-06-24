@@ -72,6 +72,7 @@ main {
 
 .content-container {
     border: 2px dashed rgba(0, 0, 0, 0.4);
+    display: flex;
 }
 
 .content-container p {
@@ -82,11 +83,12 @@ main {
 .content-title {
     border: 2px dashed rgba(0, 0, 0, 0.4);
     background-color:gainsboro;
-}
+    width: 20%;}
 
 .section-content {
     border: 2px dashed rgba(0, 0, 0, 0.4);
     background-color: lemonchiffon;
+    width: 80%;
 }
 
 #gallery-item-main {
