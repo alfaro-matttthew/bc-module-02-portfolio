@@ -1,30 +1,22 @@
 
 /* ----The Site Title and the Navigation Bar----- */
 
-.header-content {
-    float: left;
-    width: 50%;
-    padding: 10px 50px;
-    height:65px; 
-    box-sizing: border-box;
-    background-color: darkslategray;
+
+.header-top {
+    background-color: #30353D;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
 }
 
-.header-top:after {
-    content: "";
-    background-color: darkslategray;
-    display: table;
-    height: 54px;
-    box-sizing: border-box;
-}
-
-#header-title {
+.header-title {
     border: 2px dashed rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: flex-end;
 }
 
-#header-nav {
+.header-nav {
     border: 2px dashed rgba(0, 0, 0, 0.4); 
 
     display: flex;
@@ -32,7 +24,7 @@
     align-items: flex-end;
 }
 
-#header-nav a {
+.header-nav a {
     color: #92CCCE;
     padding: 1px;
 }
@@ -40,8 +32,8 @@
 /* -----The Subtitle----- */
 
 .header-bottom {
-    background-color: slategray;
-    
+    background-image: url("images/02-hero-bg.jpg");
+    background-size: cover;
 }
 
 .header-btm-flex {
@@ -101,33 +93,44 @@ main {
 .work-section {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .gallery-item {
     border: 2px dashed rgba(0, 0, 0, 0.4);
-    flex-grow: 1;
+    height: 103px;
+    width: 200px;
+}
+
+.row {
+    display: flex;
 }
 
 #gallery-item-main {
     border: 2px dashed rgba(0, 0, 0, 0.4);
     width: 100%;
     background-image: url("images/02-portfolio-4.jpg");
+    background-size: cover;
 }
 
 #led-wall {
     background-image: url("images/02-portfolio-1.jpg");
+    background-size: cover;
 }
 
 #calculator {
     background-image: url("images/02-portfolio-2.jpg");
+    background-size: cover;
 }
 
 #pastel-puzzels {
     background-image: url("images/02-portfolio-3.jpg");
+    background-size: cover;
 }
 
 #run-buddy {
     background-image: url("images/02-run-buddy.jpg");
+    background-size: cover;
 }
 
 .lower-nav {
