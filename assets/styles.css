@@ -95,34 +95,48 @@
 /* ----The Main Content----- */
 
 main {
-    background-color: whitesmoke;
+    background-color: #EEEEF7;
     padding: 10px 50px;
 }
 
 .content-container {
     border: 2px dashed rgba(0, 0, 0, 0.4);
     display: flex;
+
+    color: #445877;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
 }
 
 .content-container p {
     border: 2px dashed rgba(0, 0, 0, 0.4);
-    
+    color: #50617F;
+
+    padding-bottom: 10px;
+
+    line-height: 16px;
+
 }
 
 .content-title {
     border: 2px dashed rgba(0, 0, 0, 0.4);
-    background-color:gainsboro;
+    color: #445877;
+
     width: 20%;
     margin: 10px;
+    padding-right: 10px;
 
     border-right: 3px solid #445877;
 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
+    font-size: 32px;
+    font-weight:600;
 }
 
 .section-content {
     border: 2px dashed rgba(0, 0, 0, 0.4);
-    background-color: lemonchiffon;
     width: 80%;
     margin: 10px;
 }
