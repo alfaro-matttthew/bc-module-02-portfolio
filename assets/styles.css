@@ -59,7 +59,7 @@
 /* -----The Subtitle----- */
 
 .header-bottom {
-    background-image: url("images/02-hero-bg.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 41, 63, 0.5), rgba(0, 123, 195, 0.5)), url("images/02-hero-bg.jpg");
     background-size: cover;
 }
 
@@ -75,11 +75,21 @@
 
 .header-btm-flex h2 {
     border: 2px dashed rgba(0, 0, 0, 0.4);
-    color: black;
-    margin: 20px 50px;
+    /* color: black;
+ 
     width: 200px;
 
-    text-align: right;
+    text-align: right; */
+
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:600;
+
+    color: #30353D;
+    background-color: #92CCCE;
+
+    margin: 15px 50px;
+    padding: 5px 5px 5px 5px;
 }
 
 /* ----The Main Content----- */
