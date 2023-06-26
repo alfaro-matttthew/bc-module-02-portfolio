@@ -11,7 +11,7 @@
 }
 
 .header-title {
-    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    border: 2px dashed rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
     
@@ -29,7 +29,7 @@
 }
 
 .header-nav {
-    /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
+    border: 2px dashed rgba(0, 0, 0, 0.4); 
 
     width: 40%;
 
@@ -41,7 +41,7 @@
 }
 
 .header-nav a {
-    /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
+    border: 2px dashed rgba(0, 0, 0, 0.4); 
 
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,7 +51,6 @@
     border-bottom: 3px solid #92CCCE;
 
     margin: 0px 5px;
-    padding-bottom: 3px;
 
     flex-grow: 1;
 }
@@ -75,7 +74,7 @@
 }
 
 .header-btm-flex h2 {
-    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    border: 2px dashed rgba(0, 0, 0, 0.4);
     /* color: black;
  
     width: 200px;
@@ -97,11 +96,11 @@
 
 main {
     background-color: #EEEEF7;
-    padding: 20px 50px;
+    padding: 10px 50px;
 }
 
 .content-container {
-    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    border: 2px dashed rgba(0, 0, 0, 0.4);
     display: flex;
 
     color: #445877;
@@ -111,7 +110,7 @@ main {
 }
 
 .content-container p {
-    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    border: 2px dashed rgba(0, 0, 0, 0.4);
     color: #50617F;
 
     padding-bottom: 10px;
@@ -121,7 +120,7 @@ main {
 }
 
 .content-title {
-    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    border: 2px dashed rgba(0, 0, 0, 0.4);
     color: #445877;
 
     width: 20%;
@@ -137,7 +136,7 @@ main {
 }
 
 .section-content {
-    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    border: 2px dashed rgba(0, 0, 0, 0.4);
     width: 80%;
     margin: 10px;
 }
@@ -156,7 +155,7 @@ main {
 } */
 
 .gallery-item {
-    /* border: 2px dashed rgba(0, 0, 0, 0.2); */
+    border: 2px dashed rgba(0, 0, 0, 0.2);
 
     border: 3px solid #92CCCE;
 
@@ -168,7 +167,7 @@ main {
 }
 
 .image-caption {
-    /* border: 2px dashed rgba(0, 0, 0, 0.2); */
+    border: 2px dashed rgba(0, 0, 0, 0.2);
     padding: 10px 5px;
     margin-bottom: 12px;
 
@@ -180,7 +179,7 @@ main {
 }
 
 .image-caption h3 {
-    /* border: 2px dashed rgba(0, 0, 0, 0.2); */
+    border: 2px dashed rgba(0, 0, 0, 0.2);
 
     color: #445877;
 
@@ -190,7 +189,7 @@ main {
 }
 
 .image-caption caption {
-    /* border: 2px dashed rgba(0, 0, 0, 0.2); */
+    border: 2px dashed rgba(0, 0, 0, 0.2);
     font-size: 100px;
 }
 
@@ -251,7 +250,7 @@ flex-grow: 1;
 }
 
 #lower-nav a {
-    /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
+    border: 2px dashed rgba(0, 0, 0, 0.4); 
 
     font-size: 14px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
