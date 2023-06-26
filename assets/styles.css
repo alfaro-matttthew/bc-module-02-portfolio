@@ -185,15 +185,24 @@ main {
     background-size: cover;
 }
 
-.lower-nav {
-    border: 2px dashed rgba(0, 0, 0, 0.4);  
-    display: flex; 
+#lower-nav {
+    display: flex;
+    align-items: center;
 }
 
-.lower-nav li {
+#lower-nav a {
     border: 2px dashed rgba(0, 0, 0, 0.4); 
-    flex-grow: 1;
+
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+
+    color: #445877;
+    border-bottom: 3px solid #445877;
+
+    margin: 0px 20px;
+
+    flex-grow: 1;
 }
 
 /* ----The Footer----- */
