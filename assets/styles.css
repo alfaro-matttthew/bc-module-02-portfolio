@@ -7,32 +7,59 @@
     height: 65px;
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0px;
 }
 
 .header-title {
-    border: 2px dashed rgba(0, 0, 0, 0.4);
+    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    
+}
+
+.header-title h1 {
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:600;
+
+    color: #30353D;
+    background-color: #92CCCE;
+
+    padding: 5px 5px 5px 50px;
 }
 
 .header-nav {
-    border: 2px dashed rgba(0, 0, 0, 0.4); 
+    /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
+
+    width: 40%;
+
+    margin-right: 40px;
 
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .header-nav a {
+    /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
+
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
     color: #92CCCE;
-    padding: 1px;
+    border-bottom: 3px solid #92CCCE;
+
+    margin: 0px 5px;
+
+    flex-grow: 1;
 }
+
 
 /* -----The Subtitle----- */
 
 .header-bottom {
-    background-image: url("images/02-hero-bg.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 41, 63, 0.5), rgba(0, 123, 195, 0.5)), url("images/02-hero-bg.jpg");
     background-size: cover;
 }
 
@@ -47,101 +74,194 @@
 }
 
 .header-btm-flex h2 {
-    border: 2px dashed rgba(0, 0, 0, 0.4);
-    color: black;
-    margin: 20px 50px;
+    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    /* color: black;
+ 
     width: 200px;
 
-    text-align: right;
+    text-align: right; */
+
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:600;
+
+    color: #30353D;
+    background-color: #92CCCE;
+
+    margin: 15px 50px;
+    padding: 5px 5px 5px 5px;
 }
 
 /* ----The Main Content----- */
 
 main {
-    background-color: whitesmoke;
+    background-color: #EEEEF7;
     padding: 10px 50px;
 }
 
 .content-container {
-    border: 2px dashed rgba(0, 0, 0, 0.4);
+    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
     display: flex;
+
+    color: #445877;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
 }
 
 .content-container p {
-    border: 2px dashed rgba(0, 0, 0, 0.4);
-    
+    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    color: #50617F;
+
+    padding-bottom: 10px;
+
+    line-height: 16px;
+
 }
 
 .content-title {
-    border: 2px dashed rgba(0, 0, 0, 0.4);
-    background-color:gainsboro;
+    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    color: #445877;
+
     width: 20%;
     margin: 10px;
+    padding-right: 10px;
 
     border-right: 3px solid #445877;
 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
+    font-size: 32px;
+    font-weight:600;
 }
 
 .section-content {
-    border: 2px dashed rgba(0, 0, 0, 0.4);
-    background-color: lemonchiffon;
+    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
     width: 80%;
     margin: 10px;
 }
 
-.work-section {
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 0px;
+    justify-content: space-between;
+}
+
+/* .work-section {
     display: flex;
     flex-wrap: wrap;
 
-}
+} */
 
 .gallery-item {
-    border: 2px dashed rgba(0, 0, 0, 0.4);
+    /* border: 2px dashed rgba(0, 0, 0, 0.2); */
+
+    border: 3px solid #92CCCE;
+
     height: 103px;
     width: 200px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.image-caption {
+    /* border: 2px dashed rgba(0, 0, 0, 0.2); */
+    padding: 10px 5px;
+    margin-bottom: 12px;
+
+    background-color: #92CCCE;
+    color: #50617F;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+
+.image-caption h3 {
+    /* border: 2px dashed rgba(0, 0, 0, 0.2); */
+
+    color: #445877;
+
+    padding-bottom: 5px;
+
+    font-size: 18px;
+}
+
+.image-caption caption {
+    /* border: 2px dashed rgba(0, 0, 0, 0.2); */
+    font-size: 100px;
 }
 
 .row {
-    display: flex;
+flex-grow: 1;
 }
 
 #gallery-item-main {
-    border: 2px dashed rgba(0, 0, 0, 0.4);
     width: 100%;
-    background-image: url("images/02-portfolio-4.jpg");
+    height: 300px;
+
+    background-image: linear-gradient(0deg, rgba(30, 55, 69, 0.5),  rgba(67, 123, 154, 0.5)), url("images/02-portfolio-4.jpg");
     background-size: cover;
+
+    order: 1;
+    flex-grow: 2;
 }
 
 #led-wall {
-    background-image: url("images/02-portfolio-1.jpg");
+    width: 48%;
+
+    background-image: linear-gradient(0deg, rgba(30, 55, 69, 0.5),  rgba(67, 123, 154, 0.5)), url("images/02-portfolio-1.jpg");
     background-size: cover;
+    
+    order: 2;
 }
 
 #calculator {
-    background-image: url("images/02-portfolio-2.jpg");
+    width: 48%;
+
+    background-image: linear-gradient(0deg, rgba(30, 55, 69, 0.5),  rgba(67, 123, 154, 0.5)), url("images/02-portfolio-2.jpg");
     background-size: cover;
+
+    order: 3;
 }
 
 #pastel-puzzels {
-    background-image: url("images/02-portfolio-3.jpg");
+    width: 48%;
+
+    background-image:  linear-gradient(0deg, rgba(30, 55, 69, 0.5),  rgba(67, 123, 154, 0.5)),url("images/02-portfolio-3.jpg");
     background-size: cover;
+
+    order: 4;
 }
 
 #run-buddy {
-    background-image: url("images/02-run-buddy.jpg");
+    width: 48%;
+
+    background-image: linear-gradient(0deg, rgba(30, 55, 69, 0.5),  rgba(67, 123, 154, 0.5)), url("images/02-run-buddy.jpg");
     background-size: cover;
+
+    order: 5;
 }
 
-.lower-nav {
-    border: 2px dashed rgba(0, 0, 0, 0.4);  
-    display: flex; 
+#lower-nav {
+    display: flex;
+    align-items: center;
 }
 
-.lower-nav li {
-    border: 2px dashed rgba(0, 0, 0, 0.4); 
-    flex-grow: 1;
+#lower-nav a {
+    /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
+
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+
+    color: #445877;
+    border-bottom: 3px solid #445877;
+
+    margin: 0px 20px;
+
+    flex-grow: 1;
 }
 
 /* ----The Footer----- */
