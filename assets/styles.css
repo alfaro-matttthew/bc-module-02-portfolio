@@ -144,7 +144,7 @@ main {
 #gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 0px 20px;
+    gap: 12px 0px;
     justify-content: space-between;
 }
 
