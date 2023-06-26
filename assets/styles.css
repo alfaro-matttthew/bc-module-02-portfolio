@@ -1,4 +1,9 @@
 
+a {
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
 /* ----The Site Title and the Navigation Bar----- */
 
 
@@ -46,7 +51,6 @@
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    text-decoration: none;
 
     color: #92CCCE;
     border-bottom: 3px solid #92CCCE;
@@ -54,8 +58,6 @@
     margin: 0px 5px;
 
     flex-grow: 1;
-
-    transition: 0.3s ease;
 }
 
 .header-nav a:hover {
@@ -270,6 +272,11 @@ flex-grow: 1;
     margin: 0px 20px;
 
     flex-grow: 1;
+}
+
+#lower-nav a:hover {
+    color: #6a8bbd;
+    border-bottom: 8px solid #6a8bbd;
 }
 
 /* ----The Footer----- */
