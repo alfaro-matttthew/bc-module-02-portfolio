@@ -46,6 +46,7 @@
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    text-decoration: none;
 
     color: #92CCCE;
     border-bottom: 3px solid #92CCCE;
@@ -53,6 +54,13 @@
     margin: 0px 5px;
 
     flex-grow: 1;
+
+    transition: 0.3s ease;
+}
+
+.header-nav a:hover {
+    color: #b0f8fa;
+    border-bottom: 8px solid #b0f8fa;
 }
 
 
