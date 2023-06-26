@@ -161,6 +161,36 @@ main {
 
     height: 103px;
     width: 200px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.image-caption {
+    border: 2px dashed rgba(0, 0, 0, 0.2);
+    padding: 10px 5px;
+    margin-bottom: 12px;
+
+    background-color: #92CCCE;
+    color: #50617F;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+
+.image-caption h3 {
+    border: 2px dashed rgba(0, 0, 0, 0.2);
+
+    color: #445877;
+
+    padding-bottom: 5px;
+
+    font-size: 18px;
+}
+
+.image-caption caption {
+    border: 2px dashed rgba(0, 0, 0, 0.2);
+    font-size: 100px;
 }
 
 .row {
@@ -176,7 +206,6 @@ flex-grow: 1;
 
     order: 1;
     flex-grow: 2;
-    /* flex-shrink: 2; */
 }
 
 #led-wall {
@@ -186,8 +215,6 @@ flex-grow: 1;
     background-size: cover;
     
     order: 2;
-    /* flex-grow: 1; */
-    /* flex-shrink: 1; */
 }
 
 #calculator {
@@ -197,8 +224,6 @@ flex-grow: 1;
     background-size: cover;
 
     order: 3;
-    /* flex-grow: 1; */
-    /* flex-shrink: 1; */
 }
 
 #pastel-puzzels {
@@ -208,8 +233,6 @@ flex-grow: 1;
     background-size: cover;
 
     order: 4;
-    /* flex-grow: 1; */
-    /* flex-shrink: 1; */
 }
 
 #run-buddy {
@@ -219,8 +242,6 @@ flex-grow: 1;
     background-size: cover;
 
     order: 5;
-    /* flex-grow: 1; */
-    /* flex-shrink: 1; */
 }
 
 #lower-nav {
