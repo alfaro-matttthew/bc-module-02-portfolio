@@ -158,6 +158,14 @@ main {
     justify-content: space-between;
 }
 
+.hover-pls {
+
+}
+
+.hover-pls:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
 /* .work-section {
     display: flex;
     flex-wrap: wrap;
@@ -174,7 +182,13 @@ main {
 
     display: flex;
     align-items: flex-end;
+
+    /* transition: all 0.3s ease;  */
 }
+
+/* .gallery-item a:hover {
+    border: 10px solid #92CCCE;
+} */
 
 .image-caption {
     /* border: 2px dashed rgba(0, 0, 0, 0.2); */
