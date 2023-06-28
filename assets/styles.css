@@ -45,7 +45,7 @@ a {
     font-weight:600;
 }
 
-nav {
+.nav-bar {
     /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
 
@@ -57,7 +57,7 @@ nav {
     align-items: center;
 }
 
-nav a {
+.nav-bar a {
     /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
 
@@ -74,7 +74,7 @@ nav a {
     flex-basis: auto;
 }
 
-nav a:hover {
+.nav-bar a:hover {
     border-bottom: 8px solid var(--accent-hl);
     color: var(--accent-hl);
 }
@@ -365,7 +365,7 @@ footer {
         font-size: 36px;
     }
 
-    nav {
+    .nav-bar {
         width: 100%;
         margin-top: 20px;
 
@@ -373,7 +373,7 @@ footer {
         align-content: space-around;
     }
 
-    nav a {
+    .nav-bar a {
         margin: 0px 2px;
         padding: 10px 100px;
 
@@ -386,7 +386,7 @@ footer {
         flex-basis: 0;
     }
     
-    nav a:hover {
+    .nav-bar a:hover {
         border-bottom: 1px solid var(--accent-hl);
         border-top: 1px solid var(--accent-hl);
     }
