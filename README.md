@@ -14,4 +14,14 @@ https://github.com/alfaro-matttthew/web-development-portfolio
 
 ## Screenshot
 
-![Portfolio Website Screenshot](./assets/images/_Users_matthewalfaro_Documents_UCF_bc-module-02-portfolio_index.html.png)
+Desktop
+
+![Portfolio Website Screenshot for Desktop View](./assets/images/desktop.png)
+
+Tablet
+
+![Portfolio Website Screenshot for Tablet View](./assets/images/tablet.png)
+
+Mobile
+
+![Portfolio Website Screenshot for Mobile View](./assets/images/mobile.png)
