@@ -10,66 +10,39 @@
   <body>
     <header>
       <!-- -----The Site Title and the Navigation Bar----- -->
-
       <div class="header-top">
         <div class="header-title">
           <h1>Matthew Alfaro</h1>
         </div>
-
-        <div class="header-nav">
+        <nav>
           <a href="#about-me">About Me</a>
           <a href="#work">Work</a>
           <a href="#contact-me">Contact Me</a>
           <a href="#">Resume</a>
-        </div>
+        </nav>
       </div>
-
-      <!-- <section class="header-top">
-        <div class="header-title">
-          <h1>Matthew Alfaro</h1>
-        </div>
-        <div class="nav-container">
-          <a>About Me</a>
-          <a>Work</a>
-          <a>Contact Me</a>
-          <a>Resume</a>
-        </div>
-      </section> -->
-
       <!-- -----The Subtitle----- -->
       <section class="header-bottom">
-        <div class="header-btm-flex">
+        <section class="header-btm-flex">
           <div class="box">
             <div>
               <h2>Let's Design Today<br /><span>to Create Tomorrow!</span></h2>
             </div>
-            <div>
+            <figure>
               <img src="./assets/images/alfaroMatthew-profilePic.png" />
-            </div>
+            </figure>
           </div>
-        </div>
+        </section>
       </section>
-
-      <!-- <section class="header-bottom">
-        <div class="header-btm-flex">
-
-            <div>
-              <img src="./assets/images/alfaroMatthew-profilePic.png" />
-            </div>
-            <div>
-              <h2>Let's Design Today<br /><span>to Create Tomorrow!</span></h2>
-            </div>
-            
-        </div>
-      </section> -->
     </header>
+
     <main>
       <!-- -----The About Me Section----- -->
       <section class="content-container" id="about-me">
         <div class="content-title">
           <h3>About<br />Me</h3>
         </div>
-        <div class="section-content">
+        <article class="section-content">
           <p>
             Hey there! My name is Matthew Alfaro. I am a web and graphic
             designer with a winning personailty. I specialize in visual
@@ -95,92 +68,87 @@
             you are not interested in my design skills but are still interested
             in hearing whatever song I’ve learned on melodica, hit me up.
           </p>
-        </div>
+        </article>
       </section>
       <!-- -----The Work Section----- -->
       <section class="content-container" id="work">
         <div class="content-title">
           <h3>Work</h3>
         </div>
-        <div class="section-content" id="gallery">
-          <div class="gallery-item" id="gallery-item-main">
+        <section class="section-content" id="gallery">
+          <a
+            class="gallery-item"
+            id="gallery-item-main"
+            href="https://www.geeksforgeeks.org/mern-stack/"
+            target="_blank"
+          >
             <div class="image-caption">
               <h3>Surf Report</h3>
               <caption>
                 MERN Stack
               </caption>
             </div>
-          </div>
-          <div class="gallery-item" id="led-wall">
+          </a>
+          <a
+            class="gallery-item"
+            id="led-wall"
+            href="https://www.w3schools.com/nodejs/"
+            target="_blank"
+          >
             <div class="image-caption">
               <h3>LED Wall</h3>
               <caption>
                 NODE/IoT
               </caption>
             </div>
-          </div>
-          <div class="gallery-item" id="calculator">
+          </a>
+          <a
+            class="gallery-item"
+            id="calculator"
+            href="https://www.w3schools.com/REACT/DEFAULT.ASP"
+            target="_blank"
+          >
             <div class="image-caption">
               <h3>Calculator</h3>
               <caption>
                 React?JavaScript/CSS
               </caption>
             </div>
-          </div>
-          <div class="gallery-item" id="pastel-puzzels">
+          </a>
+          <a
+            class="gallery-item"
+            id="pastel-puzzels"
+            href="https://www.geeksforgeeks.org/mern-stack/"
+            target="_blank"
+          >
             <div class="image-caption">
               <h3>Pastel Puzzels</h3>
               <caption>
                 MERN Stack
               </caption>
             </div>
-          </div>
-          <div class="gallery-item" id="run-buddy">
+          </a>
+          <a
+            class="gallery-item"
+            id="run-buddy"
+            href="https://www.w3schools.com/html/html_css.asp"
+            target="_blank"
+          >
             <div class="image-caption">
               <h3>Run Buddy</h3>
               <caption>
                 HTML/CSS
               </caption>
             </div>
-          </div>
-        </div>
+          </a>
+        </section>
       </section>
-      <!-- -----The OLD OLD OLD Work Section----- -->
-
-      <!-- <section class="content-container">
-        <div class="content-title">
-          <h3>Work</h3>
-        </div>
-        <div class="section-content" id="gallery">
-          <div class="work-section">
-          <div id="gallery-item-main">
-            <h3>Surf Report</h3>
-          </div>
-          <div class="row">
-          <div class="gallery-item" id="led-wall">
-            <h3>LED Wall</h3>
-          </div>
-          <div class="gallery-item" id="calculator">
-            <h3>Calculator</h3>
-          </div>
-          </div>
-          <div class="row">
-          <div class="gallery-item" id="pastel-puzzels">
-            <h3>Pastel Puzzels</h3>
-          </div>
-          <div class="gallery-item" id="run-buddy">
-            <h3>Run Buddy</h3>
-          </div>
-          </div>
-          </div>
-        </div>
-      </section> -->
       <!-- -----The Contact Me Section----- -->
       <section class="content-container" id="contact-me">
         <div class="content-title">
           <h3>Contact<br />Me</h3>
         </div>
-        <div class="section-content" id="lower-nav">
+        <section class="section-content" id="lower-nav">
           <a href="tel:+1555-555-5555">555.555.5555</a>
           <a href="mailto:matthewealfaro@gmail.com">matthewealfaro@gmail.com</a>
           <a
@@ -197,7 +165,7 @@
             target="_blank"
             >Spotify</a
           >
-        </div>
+        </section>
       </section>
     </main>
     <!-- -----The Footer Section----- -->
