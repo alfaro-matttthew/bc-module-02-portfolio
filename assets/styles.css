@@ -42,6 +42,7 @@ a {
 
     display: flex;
     justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -57,6 +58,7 @@ a {
 
     margin: 0px 5px;
 
+    flex-basis: auto;
     flex-basis: auto;
 }
 
@@ -75,9 +77,11 @@ a {
 
 .header-btm-flex {
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    /* border: 2px dashed rgba(0, 0, 0, 0.4); */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+
 
 }
 
@@ -88,8 +92,11 @@ a {
 .header-btm-flex h2 {
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
 
+
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:500;
+    text-align: right;
     font-weight:500;
     text-align: right;
 
@@ -98,7 +105,18 @@ a {
 
     margin: 15px 50px 15px 15px;
 
+    margin: 15px 50px 15px 15px;
+
     padding: 5px 5px 5px 5px;
+}
+
+.header-btm-flex span {
+    font-weight: 600;
+}
+
+.profile-pic {
+    height: 100px;
+    width: 100px;
 }
 
 .header-btm-flex span {
@@ -155,6 +173,7 @@ main {
 
 .section-content {
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
+    width: 70%;
     width: 70%;
     margin: 10px;
 }
@@ -266,6 +285,8 @@ flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -280,7 +301,9 @@ flex-grow: 1;
     border-bottom: 3px solid #445877;
 
     margin: 0px 1%;
+    margin: 0px 1%;
 
+    flex-basis: auto;
     flex-basis: auto;
 }
 
@@ -293,6 +316,148 @@ flex-grow: 1;
 
 footer {
     background-color: slategray;
+}
+
+/* !!!!! MEDIA QUERY !!!!! */
+
+@media (max-width: 724px) {
+    
+    .header-top {
+        height: 250px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+  
+    .header-title {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header-title h1 {
+        font-size: 36px;
+        padding: 5px;
+        margin-top: 25px;
+    }
+
+    .header-nav {
+        width: 100%;
+        flex-direction: column;
+        align-content: space-around;
+        margin-top: 20px;
+    }
+
+    .header-nav a {
+        flex-basis: 0;
+
+        margin: 0px 2px;
+        padding: 10px 100px;
+
+        border-bottom: 1px solid  #30353D;
+        border-top: 1px solid  #30353D;
+
+        font-size: 12px;
+        text-decoration: none;
+    }
+    
+    .header-nav a:hover {
+        border-bottom: 1px solid #b0f8fa;
+        border-top: 1px solid #b0f8fa;
+    }
+
+    .header-btm-flex {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-btm-flex h2 {
+        font-size: 28px;
+        margin: 5px;
+        text-align: center;
+        color: white;
+        background-color: #92ccce00;
+    }
+
+    .content-container {
+        flex-direction: column;
+    }
+
+    .content-title {
+        font-size: 24px;
+        width: 90%;
+        text-align: left;
+        border-right: none;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #445877
+    }
+
+    .section-content {
+        width: 90%;
+    }
+
+    #gallery {
+
+    }
+
+    #led-wall {
+        width: 100%;
+    }
+
+    #calculator {
+        width: 100%;
+    }
+
+    #pastel-puzzels {
+        width: 100%;
+    }
+
+    #run-buddy {
+        width: 100%;
+    }
+
+    #lower-nav {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #lower-nav a {
+        flex-basis: 0;
+        border-bottom: none;
+    
+        border-bottom: 1px solid  #EEEEF7;
+        border-top: 1px solid  #EEEEF7;
+
+        padding: 10px 0px;
+        margin: 0px 0px; 
+    }
+
+    #lower-nav a:hover {
+        border-bottom: 1px solid #6a8bbd;
+        border-top: 1px solid #6a8bbd;
+    }
+
+}
+
+@media (min-width: 1198px) {
+
+    .content-container {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .header-top {
+        padding: 0 15%;
+    }
+
+    .header-title h1 {
+        padding: 5px;
+        /* margin-left: 120px; */
+    }
+
+    .header-bottom {
+        padding: 0 15%;
+    }
+    
 }
 
 /* !!!!! MEDIA QUERY !!!!! */
