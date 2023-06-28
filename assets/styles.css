@@ -26,6 +26,7 @@ a {
 }
 
 .header-title {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
 
     display: flex;
@@ -44,7 +45,8 @@ a {
     font-weight:600;
 }
 
-.header-nav {
+nav {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
 
     width: 40%;
@@ -55,7 +57,8 @@ a {
     align-items: center;
 }
 
-.header-nav a {
+nav a {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
 
     margin: 0px 5px;
@@ -71,7 +74,7 @@ a {
     flex-basis: auto;
 }
 
-.header-nav a:hover {
+nav a:hover {
     border-bottom: 8px solid var(--accent-hl);
     color: var(--accent-hl);
 }
@@ -84,6 +87,7 @@ a {
 }
 
 .header-btm-flex {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
 
     margin: 0px 10%;
@@ -111,6 +115,7 @@ a {
 }
 
 .header-btm-flex img {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
 
     height: 60px;
@@ -121,6 +126,7 @@ a {
 }
 
 .header-btm-flex h2 {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
 
     padding: 5px 5px 5px 5px;
@@ -151,6 +157,7 @@ main {
 }
 
 .content-container {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
 
     color: var(--body);
@@ -162,6 +169,7 @@ main {
 }
 
 .content-container p {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
 
     padding-bottom: 10px;
@@ -170,6 +178,7 @@ main {
 }
 
 .content-title {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
 
     width: 20%;
@@ -187,6 +196,7 @@ main {
 }
 
 .section-content {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4); */
 
     width: 70%;
@@ -201,6 +211,7 @@ main {
 }
 
 .gallery-item {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.2); */
 
     border: 3px solid var(--accent);
@@ -213,6 +224,7 @@ main {
 }
 
 .image-caption {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.2); */
 
     padding: 10px 5px;
@@ -226,6 +238,7 @@ main {
 }
 
 .image-caption h3 {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.2); */
     
     padding-bottom: 5px;
@@ -234,6 +247,7 @@ main {
 }
 
 .image-caption caption {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.2); */
 
     font-size: 100px;
@@ -299,6 +313,7 @@ main {
 }
 
 #lower-nav a {
+    /* This dashed border is used to as a bounding box to see the space taken up by the relative tag (and/or class) */
     /* border: 2px dashed rgba(0, 0, 0, 0.4);  */
 
     margin: 0px 1%;
@@ -350,7 +365,7 @@ footer {
         font-size: 36px;
     }
 
-    .header-nav {
+    nav {
         width: 100%;
         margin-top: 20px;
 
@@ -358,7 +373,7 @@ footer {
         align-content: space-around;
     }
 
-    .header-nav a {
+    nav a {
         margin: 0px 2px;
         padding: 10px 100px;
 
@@ -371,7 +386,7 @@ footer {
         flex-basis: 0;
     }
     
-    .header-nav a:hover {
+    nav a:hover {
         border-bottom: 1px solid var(--accent-hl);
         border-top: 1px solid var(--accent-hl);
     }
